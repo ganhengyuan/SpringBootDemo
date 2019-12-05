@@ -1,0 +1,6 @@
+com\ganhy\service\impl\RelatedUserMenuServiceImpl.class
+com\ganhy\service\UserService.class
+com\ganhy\service\RelatedUserMenuService.class
+com\ganhy\service\impl\MenuServiceImpl.class
+com\ganhy\service\impl\UserServiceImpl.class
+com\ganhy\service\MenuService.class

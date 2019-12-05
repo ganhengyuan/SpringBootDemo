@@ -1,0 +1,4 @@
+com\ganhy\controller\IndexController.class
+com\ganhy\controller\MenuController.class
+com\ganhy\controller\RoleController.class
+com\ganhy\controller\UserController.class

@@ -1,0 +1,5 @@
+com\ganhy\config\init\InitConfig.class
+com\ganhy\config\interceptor\WebMvcConfigurer.class
+com\ganhy\config\init\ScanMappers.class
+com\ganhy\config\interceptor\HibernateAwareObjectMapper.class
+com\ganhy\config\swagger\SwaggerConfiguration.class
