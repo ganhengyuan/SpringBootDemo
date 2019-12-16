@@ -44,7 +44,6 @@ public class IndexController {
      * 这个页面是从权限框架配置的 SecurityConfig
      * {@link com.ganhy.security.authentication.SecurityConfig}
      * @see com.ganhy.security.authentication.SecurityConfig#configure(HttpSecurity) 中 /403
-     * @return
      */
     @ApiOperation(value = "无权限访问时跳转", httpMethod = "POST", hidden = true)
     @PostMapping("/403")
