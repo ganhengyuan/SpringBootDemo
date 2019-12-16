@@ -1,8 +1,0 @@
-com\ganhy\security\authentication\UserDetailsSecurity.class
-com\ganhy\security\authorize\impl\AuthorizeConfigProvideImpl.class
-com\ganhy\security\authentication\SecurityConfig.class
-com\ganhy\security\authorize\AuthorizeConfigManager.class
-com\ganhy\security\authorize\impl\AuthorizeConfigManagerImpl.class
-com\ganhy\security\LoginSuccess.class
-com\ganhy\security\authorize\AuthorizeConfigProvide.class
-com\ganhy\security\LoginFail.class
