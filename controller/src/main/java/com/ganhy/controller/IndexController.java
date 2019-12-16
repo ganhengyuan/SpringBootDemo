@@ -4,6 +4,8 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -31,6 +33,14 @@ public class IndexController {
     }
 
     /**
+     * 跳转一个到一个已知页面
+     */
+    @GetMapping("/html/{html}")
+    public String toHtml(@PathVariable("html") String html){
+        return html;
+    }
+
+    /**
      * 这个页面是从权限框架配置的 SecurityConfig
      * {@link com.ganhy.security.authentication.SecurityConfig}
      * @see com.ganhy.security.authentication.SecurityConfig#configure(HttpSecurity) 中 /403
@@ -41,5 +51,6 @@ public class IndexController {
     public String notRole(){
         return "403";
     }
+
 
 }
