@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
  * @date 2019/7/29 15:19
  * @description 自定义密码加密方式
  **/
-
 @Component
 public class CustomPasswordEncoder implements PasswordEncoder {
 
