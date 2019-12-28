@@ -1,4 +1,4 @@
-package com.ganhy.pojo.result;
+package com.ganhy.entity.result;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -1,7 +1,7 @@
 package com.ganhy.controller;
 
 import com.ganhy.pojo.Menu;
-import com.ganhy.pojo.result.Result;
+import com.ganhy.entity.result.Result;
 import com.ganhy.service.MenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

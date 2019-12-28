@@ -1,4 +1,4 @@
-package com.ganhy.pojo.security;
+package com.ganhy.entity.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.SpringSecurityCoreVersion;

@@ -1,8 +1,8 @@
 package com.ganhy.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ganhy.pojo.result.Result;
-import com.ganhy.pojo.security.UserSecurity;
+import com.ganhy.entity.result.Result;
+import com.ganhy.entity.security.UserSecurity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;

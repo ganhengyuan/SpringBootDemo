@@ -7,10 +7,10 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 /**
  * @author: Gan
  * @ClassName: Application
- * @Date: 2019-12-5 20:31 
+ * @Date: 2019-12-5 20:31
  * @Description: SpringBoot启动类
  * 划水划水
- *
+ * <p>
  * EnableGlobalMethodSecurity 开启 prePostEnabled 注解
  **/
 @SpringBootApplication

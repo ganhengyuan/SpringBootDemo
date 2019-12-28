@@ -1,7 +1,7 @@
 package com.ganhy.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ganhy.pojo.result.Result;
+import com.ganhy.entity.result.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;

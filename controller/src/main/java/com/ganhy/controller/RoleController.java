@@ -1,6 +1,6 @@
 package com.ganhy.controller;
 
-import com.ganhy.pojo.result.Result;
+import com.ganhy.entity.result.Result;
 import com.ganhy.service.RelatedUserMenuService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

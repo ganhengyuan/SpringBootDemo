@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ganhy.dao.UserMapper;
 import com.ganhy.pojo.User;
-import com.ganhy.pojo.security.UserSecurity;
+import com.ganhy.entity.security.UserSecurity;
 import com.ganhy.service.UserService;
 import com.ganhy.util.CustomPasswordEncoder;
 import com.ganhy.util.GenerateId;

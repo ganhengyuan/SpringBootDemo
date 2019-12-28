@@ -1,0 +1,288 @@
+{
+    "version": 6,
+    "entities": [
+        {
+            "entity": {
+                "type": "Project",
+                "description": "",
+                "id": "e465807d-9ac9-46d5-9931-7a2f28c8c3d4",
+                "name": "springboot脚手架"
+            },
+            "children": [
+                {
+                    "entity": {
+                        "type": "Service",
+                        "id": "fd660f7b-4e84-4d6a-a75d-8aa98342cb3f",
+                        "name": "用户权限集合"
+                    },
+                    "children": [
+                        {
+                            "entity": {
+                                "type": "Request",
+                                "method": {
+                                    "requestBody": true,
+                                    "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                                    "name": "POST"
+                                },
+                                "body": {
+                                    "formBody": {
+                                        "overrideContentType": true,
+                                        "encoding": "application/x-www-form-urlencoded",
+                                        "items": [
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "username",
+                                                "value": "李四"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "password",
+                                                "value": "123456"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "gender",
+                                                "value": "男"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "age",
+                                                "value": "18"
+                                            }
+                                        ]
+                                    },
+                                    "bodyType": "Form"
+                                },
+                                "uri": {
+                                    "query": {
+                                        "delimiter": "&",
+                                        "items": []
+                                    },
+                                    "scheme": {
+                                        "name": "http",
+                                        "version": "V11"
+                                    },
+                                    "host": "localhost:8080",
+                                    "path": "/manager/user/createUser"
+                                },
+                                "id": "a756ea80-1d55-4e3f-99df-ce15adb54c7e",
+                                "name": "创建用户",
+                                "headers": [
+                                    {
+                                        "enabled": true,
+                                        "name": "Content-Type",
+                                        "value": "application/x-www-form-urlencoded"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "entity": {
+                                "type": "Request",
+                                "method": {
+                                    "requestBody": true,
+                                    "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                                    "name": "POST"
+                                },
+                                "body": {
+                                    "formBody": {
+                                        "overrideContentType": true,
+                                        "encoding": "application/x-www-form-urlencoded",
+                                        "items": [
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "name",
+                                                "value": "获取登录用户"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "url",
+                                                "value": "manager/user/getSecurityUser"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "urlNickName",
+                                                "value": "user:getSecurityUser"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "pid",
+                                                "value": ""
+                                            }
+                                        ]
+                                    },
+                                    "bodyType": "Form"
+                                },
+                                "uri": {
+                                    "query": {
+                                        "delimiter": "&",
+                                        "items": []
+                                    },
+                                    "scheme": {
+                                        "name": "http",
+                                        "version": "V11"
+                                    },
+                                    "host": "localhost:8080",
+                                    "path": "/manager/menu/createMenu"
+                                },
+                                "id": "452c17e1-ba65-48e0-bb7a-c9c4bb98e2ee",
+                                "name": "创建菜单",
+                                "headers": [
+                                    {
+                                        "enabled": true,
+                                        "name": "Content-Type",
+                                        "value": "application/x-www-form-urlencoded"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "entity": {
+                                "type": "Request",
+                                "method": {
+                                    "requestBody": true,
+                                    "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                                    "name": "POST"
+                                },
+                                "body": {
+                                    "formBody": {
+                                        "overrideContentType": true,
+                                        "encoding": "application/x-www-form-urlencoded",
+                                        "items": [
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "userId",
+                                                "value": "479945913065455899"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "menuId",
+                                                "value": "1244005051054536704"
+                                            }
+                                        ]
+                                    },
+                                    "bodyType": "Form"
+                                },
+                                "uri": {
+                                    "query": {
+                                        "delimiter": "&",
+                                        "items": []
+                                    },
+                                    "scheme": {
+                                        "name": "http",
+                                        "version": "V11"
+                                    },
+                                    "host": "localhost:8080",
+                                    "path": "/manager/role/addRole"
+                                },
+                                "id": "34cd7f2b-3dd5-4133-b9bb-e62193d2801a",
+                                "name": "权限操作",
+                                "headers": [
+                                    {
+                                        "enabled": true,
+                                        "name": "Content-Type",
+                                        "value": "application/x-www-form-urlencoded"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "entity": {
+                                "type": "Request",
+                                "method": {
+                                    "requestBody": true,
+                                    "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+                                    "name": "POST"
+                                },
+                                "body": {
+                                    "formBody": {
+                                        "overrideContentType": true,
+                                        "encoding": "application/x-www-form-urlencoded",
+                                        "items": [
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "username",
+                                                "value": "admin"
+                                            },
+                                            {
+                                                "enabled": true,
+                                                "type": "Text",
+                                                "name": "password",
+                                                "value": "123456"
+                                            }
+                                        ]
+                                    },
+                                    "bodyType": "Form"
+                                },
+                                "uri": {
+                                    "query": {
+                                        "delimiter": "&",
+                                        "items": []
+                                    },
+                                    "scheme": {
+                                        "name": "http",
+                                        "version": "V11"
+                                    },
+                                    "host": "localhost:8080",
+                                    "path": "/login"
+                                },
+                                "id": "414a5341-a806-426a-b4a3-182364223ba4",
+                                "name": "用户登录",
+                                "headers": [
+                                    {
+                                        "enabled": true,
+                                        "name": "Content-Type",
+                                        "value": "application/x-www-form-urlencoded"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "entity": {
+                                "type": "Request",
+                                "method": {
+                                    "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                                    "name": "GET"
+                                },
+                                "body": {
+                                    "formBody": {
+                                        "overrideContentType": true,
+                                        "encoding": "application/x-www-form-urlencoded",
+                                        "items": []
+                                    },
+                                    "bodyType": "Text"
+                                },
+                                "uri": {
+                                    "query": {
+                                        "delimiter": "&",
+                                        "items": []
+                                    },
+                                    "scheme": {
+                                        "name": "http",
+                                        "version": "V11"
+                                    },
+                                    "host": "localhost:8080",
+                                    "path": "/manager/user/getSecurityUser"
+                                },
+                                "id": "2e647798-8666-43b5-b586-1feed8fafe80",
+                                "name": "获取用户",
+                                "headers": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

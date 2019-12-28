@@ -2,7 +2,7 @@ package com.ganhy.security.authentication;
 
 import com.ganhy.pojo.User;
 import com.ganhy.pojo.Menu;
-import com.ganhy.pojo.security.UserSecurity;
+import com.ganhy.entity.security.UserSecurity;
 import com.ganhy.service.MenuService;
 import com.ganhy.service.UserService;
 import org.apache.commons.lang3.StringUtils;
