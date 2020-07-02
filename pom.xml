@@ -61,7 +61,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
+            <version>8.0.16</version>
         </dependency>
         <!-- mybatis-plus 我把他看作是 SpringDateJPA 和 Mybatis的结合体 -->
         <dependency>
